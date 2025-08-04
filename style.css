@@ -101,3 +101,18 @@ body {
   cursor: pointer;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
 }
+#camera-view {
+  margin-top: 20px;
+  text-align: center;
+}
+
+#camera-view button {
+  padding: 10px 20px;
+  margin-top: 10px;
+  background-color: #075E54;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+}
