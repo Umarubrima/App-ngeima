@@ -12,7 +12,18 @@
   <!-- Top Bar -->
   <div class="top-bar">
     <h1>NG APP</h1>
-    <div class="camera-icon">📷</div>
+   <!-- Main Content Area -->
+<div class="content">
+  <p>Select a tab to view content...</p>
+</div>
+
+<!-- 📸 CAMERA VIEW -->
+<div id="camera-view" style="display:none;">
+  <video id="video" width="100%" autoplay></video>
+  <button onclick="takePhoto()">📸 Snap</button>
+  <canvas id="canvas" style="display:none;"></canvas>
+  <img id="photo" alt="Your Snap" style="width:100%; margin-top:10px;" />
+</div>
     <input type="text" class="search-input" placeholder="Search chats or groups" />
     <div class="menu-icon" id="menuToggle">⋮</div>
 
